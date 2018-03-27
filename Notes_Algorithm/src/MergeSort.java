@@ -1,5 +1,10 @@
 import java.util.Arrays;
 
+/*
+* The time complexity is O(nlogn) -> Merge itself is O(n) and sort is O(logn)
+* The space complexity if O(n+logn) -> O(logn) is the space that used by stack. 
+* However, the logn can be ignored. So the space complexity is O(n)
+*/
 public class MergeSort {
     public static void main (String[] args) {
         int[] arr = new int[]{6,5,1,2,4,9,3};
